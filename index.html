@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <label for="name" class="text1">Name</label>
+        <input class="name-input" id="name" autocomplete="off">
+
+        <label for="email" class="text2">Email</label>
+        <input class="email-input" id="email" autocomplete="off">
+
+        <label for="message" class="text3">Message</label>
+        <textarea class="message-input" id="message" autocomplete="off"></textarea>
+
+        <button class="send-btn" id="send">Send</button>
+        <button class="reset-btn" id="reset">Reset</button>
+    </div>
+    <table>
+        <thead>
+            <td>name</td>
+            <td>email</td>
+            <td>message</td>
+        </thead>
+        <tbody>
+            <td id="name_td"></td>
+            <td id="email_td"></td>
+            <td id="message_td"></td>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

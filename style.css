@@ -1,0 +1,210 @@
+
+
+/*Mobile devices*/
+@media (min-width:320px){
+    body{
+        background:rgb(168, 71, 71);
+    }
+
+    .container{
+        width:450px;
+        height: 450px;
+        border-radius: 25px;
+        background:rgba(59, 59, 59, 0.692);
+        box-shadow: 1px 1px 11px black;
+        margin:100px 0px;
+        box-sizing: border-box;
+    }
+
+    .name-input{
+        font-size: 30px;
+        outline: none;
+        border: none;
+        margin:0px 50px;
+        width:350px;
+        border:3px solid black;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .email-input{
+        font-size: 30px;
+        outline: none;
+        border: none;
+        margin:0px 50px;
+        width:350px;
+        border:3px solid black;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .message-input{
+        font-size: 30px;
+        outline: none;
+        border: none;
+        margin:0px 50px;
+        width:350px;
+        height: 150px;
+        border:3px solid black;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .text1{
+        margin:20px 220px;
+        font-family:Tahoma, sans-serif;
+    }
+    
+    .text2{
+        margin:20px 220px;
+        font-family:Tahoma, sans-serif;
+    }
+    
+    .text3{
+        margin:20px 200px;
+        font-family:Tahoma, sans-serif;
+    }
+
+    .text1, .text2, .text3{
+        font-size:25px;
+        font-weight: bold;
+        margin:30px;
+        text-align: center;
+        font-family:Tahoma, sans-serif;
+    }
+
+    .send-btn, .reset-btn{
+        border:none;
+        width:200px;
+        height:70px;
+        margin:20px 11px;
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 20px;
+        border:3px solid black;
+        opacity:85%;
+    }
+    
+}
+/*Tablets or iPad: 480px - 768px*/
+@media (min-width:480px){
+    body{
+        background:rgb(25, 0, 255);
+    }
+}
+
+/*For Laptop or small-size screen: 768px -1024px*/
+@media(min-width:768px){
+    body{
+        background:rgb(0, 0, 0);
+    }
+}
+
+/*Desktop devices*/
+@media (min-width:1024px){
+    body{
+        background: rgb(122, 122, 122);
+    }
+    
+    .container{
+        width:655px;
+        height: 450px;
+        border-radius: 25px;
+        background:rgba(59, 59, 59, 0.692);
+        box-shadow: 1px 1px 11px black;
+        margin:100px 370px;
+        box-sizing: border-box;
+    }
+    
+    .text1, .text2, .text3{
+        font-size:25px;
+        font-weight: bold;
+        margin:30px;
+        text-align: center;
+        font-family:Tahoma, sans-serif;
+    }
+    
+    .text1{
+        margin:20px 290px;
+        font-family:Tahoma, sans-serif;
+    }
+    
+    .text2{
+        margin:20px 290px;
+        font-family:Tahoma, sans-serif;
+    }
+    
+    .text3{
+        margin:20px 280px;
+        font-family:Tahoma, sans-serif;
+    }
+    
+    .name-input{
+        font-size: 30px;
+        outline: none;
+        border: none;
+        margin:0px 70px;
+        width:500px;
+        border:3px solid black;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .email-input{
+        font-size: 30px;
+        outline: none;
+        border: none;
+        margin:0px 70px;
+        width:500px;
+        border:3px solid black;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .message-input{
+        font-size: 30px;
+        outline: none;
+        border: none;
+        margin:0px 70px;
+        width:500px;
+        height: 150px;
+        border:3px solid black;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .send-btn, .reset-btn{
+        border:none;
+        width:200px;
+        height:70px;
+        margin:20px 62px;
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 20px;
+        border:3px solid black;
+        opacity:85%;
+    }
+    
+    .send-btn:hover, .reset-btn:hover{
+        opacity: 100%;
+        cursor: pointer;
+    }
+    
+    .send-btn:active, .reset-btn:active{
+        box-shadow: 1px 1px 11px black;
+    }
+    
+    table, tbody, thead{
+        border:2px solid black;
+        font-family:Tahoma, sans-serif;
+        font-weight:bolder;
+    }
+    
+    table{
+        margin:-90px 425px;
+        width:550px;
+        font-size: 25px;
+    
+    }
+}
+
